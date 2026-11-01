@@ -113,6 +113,23 @@ You should end up with `koreader/data/dict/en-pt/en-pt.ifo`.
 Restart KOReader. The dictionary appears in the lookup popup. Long-press a
 dictionary name there to reorder them when you have several installed.
 
+### Onyx Boox (NeoReader)
+
+The same files work in NeoReader, the reader built into Onyx Boox
+devices — no KOReader needed.
+
+1. Put the unzipped folder in `dicts` at the root of internal storage,
+   so you end up with `dicts/en-en/en-en.ifo`. Either copy it over
+   USB/BooxDrop, or push it with `adb push en-en /sdcard/dicts/` (needs
+   USB debugging on).
+2. In a book, tap the centre → hamburger menu → **Dict Settings →
+   Preferred Dictionary** and tick the dictionary.
+3. Set **Default Dictionary** to the built-in Onyx dictionary so a
+   long-press opens the definition popup directly.
+
+The inflection index applies here too — tapping *wielded* still finds
+*wield*.
+
 ## How they are made
 
 A wordnet groups words by meaning rather than by spelling, and every wordnet in
