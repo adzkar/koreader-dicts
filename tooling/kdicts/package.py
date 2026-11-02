@@ -34,6 +34,35 @@ on your device, so that you end up with
 Restart KOReader. The dictionary appears in the dictionary list; if several are
 installed, long-press the dictionary name in a lookup popup to reorder them.
 
+Installation (NeoReader / Onyx Boox)
+------------------------------------
+
+The same files work in NeoReader, the reader built into Onyx Boox devices --
+no KOReader needed.
+
+1. Copy the folder into
+
+       dicts/
+
+   at the root of internal storage, so that you end up with
+
+       dicts/{basename}/{basename}.ifo
+
+   Either copy it over USB/BooxDrop, or push it with
+
+       adb push {basename} /sdcard/dicts/
+
+   (needs USB debugging on).
+
+2. In a book, tap the centre -> hamburger menu -> Dict Settings ->
+   Preferred Dictionary and tick the dictionary.
+
+3. Set Default Dictionary to the built-in Onyx dictionary so a long-press
+   opens the definition popup directly.
+
+The inflection index applies here too -- looking a word up exactly as it
+appears in a book works.
+
 Not affiliated with the KOReader project.
 """
 
