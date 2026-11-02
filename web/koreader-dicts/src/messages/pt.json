@@ -181,9 +181,9 @@
     "noMatches": "Nenhum dicionário para essa língua."
   },
   "seo": {
-    "pairTitle": "Dicionário de {source} para {target} no KOReader",
-    "monoTitle": "Dicionário monolíngue de {language} para KOReader",
-    "pairDescription": "{entries} verbetes, cobrindo {coverage} das 10 mil palavras mais comuns ({source}). Download grátis em StarDict para Kindle, Kobo e Android.",
-    "pairDescriptionPlain": "{entries} verbetes e {forms} formas flexionadas. Download grátis em StarDict para Kindle, Kobo e Android."
+    "pairTitle": "Dicionário de {source} para {target} no KOReader e no Onyx Boox",
+    "monoTitle": "Dicionário monolíngue de {language} para KOReader e Onyx Boox",
+    "pairDescription": "{entries} verbetes, cobrindo {coverage} das 10 mil palavras mais comuns ({source}). Download grátis em StarDict para Kindle, Kobo, Android e Onyx Boox.",
+    "pairDescriptionPlain": "{entries} verbetes e {forms} formas flexionadas. Download grátis em StarDict para Kindle, Kobo, Android e Onyx Boox."
   }
 }
