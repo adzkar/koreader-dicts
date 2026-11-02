@@ -122,6 +122,10 @@ koreader/data/dict/en-pt-kdicts/en-pt-kdicts.syn`}</pre>
         html={raw(t, "installTest")}
       />
       <pre className="mt-3 overflow-x-auto rounded-md bg-accent-soft p-4 font-mono text-xs dark:bg-accent-soft-dark">{`sdcv -02 data/dict/ quaint`}</pre>
+      <Rich
+        className="mt-3 text-sm text-neutral-500 dark:text-neutral-400"
+        html={raw(t, "installBoox")}
+      />
 
       <h2 className="mt-12 text-xl font-bold">{t("kindleTitle")}</h2>
       <Rich className="mt-2" html={raw(t, "kindleBody")} />

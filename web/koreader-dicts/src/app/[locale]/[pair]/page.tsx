@@ -8,6 +8,7 @@ import {
   StatRow,
 } from "@/components/metrics";
 import { Link } from "@/components/link";
+import { Rich, raw } from "@/components/rich";
 import {
   builtDictionaries,
   downloadUrl,
@@ -191,6 +192,16 @@ function PairContent({
             KOReader wiki
           </a>
         </p>
+        <h3 className="mt-5 font-semibold">{t("booxTitle")}</h3>
+        <Rich
+          className="mt-2 text-sm text-neutral-500 dark:text-neutral-400"
+          html={raw(t, "booxBody")}
+        />
+        <pre className="mt-2 overflow-x-auto rounded-md bg-accent-soft p-3 font-mono text-xs dark:bg-accent-soft-dark">{`dicts/${record.basename}/${record.basename}.ifo`}</pre>
+        <Rich
+          className="mt-2 text-sm text-neutral-500 dark:text-neutral-400"
+          html={raw(t, "booxAfter")}
+        />
       </div>
 
       <h2 className="mt-12 text-xl font-bold">{t("coverageTitle")}</h2>

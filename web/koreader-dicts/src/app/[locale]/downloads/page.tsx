@@ -48,6 +48,10 @@ function DownloadsContent({ locale }: { locale: Locale }) {
       <p className="mt-3 max-w-2xl text-neutral-500 dark:text-neutral-400">
         {t("lede")}
       </p>
+      <Rich
+        className="mt-2 max-w-2xl text-sm text-neutral-500 dark:text-neutral-400"
+        html={raw(t, "booxLede")}
+      />
 
       <div className="mt-8">
         <p className="mb-3 text-sm text-neutral-500 dark:text-neutral-400">
