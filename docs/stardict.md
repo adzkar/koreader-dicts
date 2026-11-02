@@ -10,6 +10,10 @@ KOReader reads StarDict via sdcv. A dictionary lives at
 | `<name>.dict` or `.dict.dz` | definition bodies, addressed by those offsets |
 | `<name>.syn` | `form\0` + `uint32be` index into the `.idx` |
 
+NeoReader — the reader built into Onyx Boox devices — consumes the identical
+format. The same four files go in `dicts/<name>/` at the root of internal
+storage, one subfolder per dictionary, and the `.syn` index works the same way.
+
 ## The index order is part of the format
 
 `.idx` is looked up by **binary search**, so its order is not a stylistic
