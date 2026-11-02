@@ -200,7 +200,7 @@ function PairContent({
         <pre className="mt-2 overflow-x-auto rounded-md bg-accent-soft p-3 font-mono text-xs dark:bg-accent-soft-dark">{`dicts/${record.basename}/${record.basename}.ifo`}</pre>
         <Rich
           className="mt-2 text-sm text-neutral-500 dark:text-neutral-400"
-          html={raw(t, "booxAfter")}
+          html={raw(t, metrics.inflected_forms ? "booxAfterForms" : "booxAfter")}
         />
       </div>
 
