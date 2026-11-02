@@ -194,6 +194,8 @@ def test_attribution_ships_inside_and_beside_the_artifact(workspace, tmp_path):
     assert (result.directory / "LICENSE").exists()
     readme = (result.directory / "README.txt").read_text(encoding="utf-8")
     assert "koreader/data/dict/" in readme
+    assert "dicts/en-pt-test/en-pt-test.ifo" in readme
+    assert "Preferred Dictionary" in readme
 
 
 def test_metrics_are_written_and_honest(workspace, tmp_path):
