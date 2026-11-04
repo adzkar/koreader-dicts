@@ -82,12 +82,27 @@ GOLDEN = [
     ("en-la", "dog", "canis"),
     ("en-la", "geese", "ānser"),
     ("en-cs", "dog", "pes"),
+    # Romanian and Catalan. câini, case, mergea, gossos, corrien, anaven are
+    # inflected and reach the entry only through .syn.
+    ("ro-en", "câini", "dog"),
+    ("ro-en", "case", "house"),
+    ("ro-en", "mergea", "go"),
+    ("ro-en", "considera", "consider"),
+    ("en-ro", "dog", "câine"),
+    ("en-ro", "geese", "gâscă"),
+    ("ca-en", "gossos", "dog"),
+    ("ca-en", "corrien", "run"),
+    ("ca-en", "anaven", "go"),
+    ("en-ca", "dog", "gos"),
+    ("en-ca", "geese", "oca"),
 ]
 
 # Things that must never appear in a rendered entry.
 FORBIDDEN = [
     ("en-it", "go", "PSEUDOGAP"),
     ("en-it", "dog", "GAP!"),
+    ("en-ro", "go", "|se|"),
+    ("en-ro", "consider", "[se]"),
 ]
 
 

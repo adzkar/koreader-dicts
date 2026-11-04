@@ -51,6 +51,10 @@ _SYNSET_SUFFIX = re.compile(r"(\d{8})-([nvars])$")
 #: nothing: the entry is exactly the gloss-only case the metrics count.
 _PLACEHOLDER_LEMMAS = frozenset({"GAP!", "PSEUDOGAP!"})
 
+#: The Romanian wordnet brackets optional clitics: "[se] considera", "|se| arde".
+#: A reader taps the verb, so the marker cannot stay in the headword.
+_OPTIONAL_CLITIC = re.compile(r"[\[|](?:se|-?și|o|-?i)[\]|]")
+
 
 class OmwLmfSource:
     """Reader for one ``omw-<code>/omw-<code>.xml`` lexicon."""
@@ -123,7 +127,7 @@ class OmwLmfSource:
                 continue
             lemma_element = element.find("Lemma")
             written = (lemma_element.get("writtenForm", "") if lemma_element is not None else "")
-            written = written.replace("_", " ").strip()
+            written = " ".join(_OPTIONAL_CLITIC.sub("", written).replace("_", " ").split())
             if written and written not in _PLACEHOLDER_LEMMAS:
                 for rank, sense in enumerate(element.findall("Sense"), start=1):
                     synset = self._strip_prefix(sense.get("synset", ""))

@@ -23,6 +23,7 @@ ISO_639_3 = {
     "ru": "rus", "pl": "pol", "cs": "ces", "nl": "nld", "el": "ell", "fi": "fin",
     "ja": "jpn", "ko": "kor", "zh": "zho", "ar": "ara", "id": "ind",
     "hi": "hin", "hu": "hun", "uk": "ukr", "fa": "fas", "tr": "tur", "la": "lat",
+    "ro": "ron", "ca": "cat",
 }
 LANGUAGE_NAMES = {
     "en": "English", "pt": "Portuguese", "es": "Spanish", "it": "Italian",
@@ -30,7 +31,7 @@ LANGUAGE_NAMES = {
     "nl": "Dutch", "el": "Greek", "fi": "Finnish", "ja": "Japanese", "ko": "Korean",
     "zh": "Chinese", "ar": "Arabic", "id": "Indonesian", "hi": "Hindi",
     "hu": "Hungarian", "uk": "Ukrainian", "fa": "Persian", "tr": "Turkish",
-    "la": "Latin",
+    "la": "Latin", "ro": "Romanian", "ca": "Catalan",
 }
 # KOReader shows the licence as free text; these are the spellings its list uses.
 LICENCE_LABELS = {
