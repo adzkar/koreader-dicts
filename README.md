@@ -18,6 +18,7 @@ Click a name to download. No account, no installer, nothing to sign up for.
 |---|---|---:|---:|---:|---:|---|
 | **[en-en](https://github.com/DanielGregorini/koreader-dicts/releases/latest/download/en-en.zip)** | English | 815,066 | 1,494,986 | 98.9% | 92 MB | CC BY-SA 4.0 |
 | **[en-ar](https://github.com/DanielGregorini/koreader-dicts/releases/latest/download/en-ar.zip)** | English → Arabic | 155,624 | 323,610 | 93.0% | 12 MB | CC BY-SA 4.0 |
+| **[en-ca](https://github.com/DanielGregorini/koreader-dicts/releases/latest/download/en-ca.zip)** | English → Catalan | 158,441 | 330,680 | 92.9% | 13 MB | CC BY-SA 4.0 |
 | **[en-zh](https://github.com/DanielGregorini/koreader-dicts/releases/latest/download/en-zh.zip)** | English → Chinese | 170,953 | 349,920 | 94.0% | 15 MB | CC BY-SA 4.0 |
 | **[en-cs](https://github.com/DanielGregorini/koreader-dicts/releases/latest/download/en-cs.zip)** | English → Czech | 32,292 | 103,178 | 84.4% | 3 MB | CC BY-SA 4.0 |
 | **[en-nl](https://github.com/DanielGregorini/koreader-dicts/releases/latest/download/en-nl.zip)** | English → Dutch | 162,346 | 339,608 | 93.2% | 14 MB | CC BY-SA 4.0 |
@@ -35,6 +36,7 @@ Click a name to download. No account, no installer, nothing to sign up for.
 | **[en-fa](https://github.com/DanielGregorini/koreader-dicts/releases/latest/download/en-fa.zip)** | English → Persian | 13,648 | 46,352 | 53.9% | 1 MB | CC BY-SA 4.0 |
 | **[en-pl](https://github.com/DanielGregorini/koreader-dicts/releases/latest/download/en-pl.zip)** | English → Polish | 177,956 | 372,845 | 93.9% | 15 MB | CC BY-SA 4.0 |
 | **[en-pt](https://github.com/DanielGregorini/koreader-dicts/releases/latest/download/en-pt.zip)** | English → Portuguese | 172,842 | 362,335 | 94.3% | 15 MB | CC BY-SA 4.0 |
+| **[en-ro](https://github.com/DanielGregorini/koreader-dicts/releases/latest/download/en-ro.zip)** | English → Romanian | 155,849 | 325,022 | 92.6% | 13 MB | CC BY-SA 4.0 |
 | **[en-ru](https://github.com/DanielGregorini/koreader-dicts/releases/latest/download/en-ru.zip)** | English → Russian | 58,922 | 164,363 | 91.7% | 6 MB | CC BY-SA 4.0 |
 | **[en-es](https://github.com/DanielGregorini/koreader-dicts/releases/latest/download/en-es.zip)** | English → Spanish | 174,258 | 365,153 | 94.0% | 15 MB | CC BY-SA 4.0 |
 | **[en-tr](https://github.com/DanielGregorini/koreader-dicts/releases/latest/download/en-tr.zip)** | English → Turkish | 26,739 | 84,963 | 78.2% | 3 MB | CC BY-SA 4.0 |
@@ -86,6 +88,8 @@ Click a name to download. No account, no installer, nothing to sign up for.
 | **[fa-en](https://github.com/DanielGregorini/koreader-dicts/releases/latest/download/fa-en.zip)** | Persian → English | 14,617 | 97,838 | 41.9% | 1 MB | CC BY-SA 4.0 |
 | **[hi-en](https://github.com/DanielGregorini/koreader-dicts/releases/latest/download/hi-en.zip)** | Hindi → English | 21,566 | 152,370 | 66.7% | 2 MB | CC BY-SA 4.0 |
 | **[la-en](https://github.com/DanielGregorini/koreader-dicts/releases/latest/download/la-en.zip)** | Latin → English | 42,144 | 830,939 | — | 5 MB | CC BY-SA 4.0 |
+| **[ro-en](https://github.com/DanielGregorini/koreader-dicts/releases/latest/download/ro-en.zip)** | Romanian → English | 121,318 | 455,759 | 69.0% | 8 MB | CC BY-SA 4.0 |
+| **[ca-en](https://github.com/DanielGregorini/koreader-dicts/releases/latest/download/ca-en.zip)** | Catalan → English | 62,181 | 195,566 | 84.3% | 5 MB | CC BY-SA 4.0 |
 
 Coverage is the share of the 10,000 most frequent words in the source language
 that a lookup resolves, inflected forms included — measured against a
@@ -181,6 +185,7 @@ Adding a language pair is a config file and no code — see
 | Princeton WordNet 3.0 | Princeton University | WordNet-3.0 |
 | OpenWN-PT | de Paiva & Rademaker, via Open Multilingual Wordnet 1.4 | CC BY-SA 4.0 |
 | Multilingual Central Repository | Spanish, via Open Multilingual Wordnet 1.4 | CC BY 3.0 |
+| Multilingual Central Repository | Catalan, via Open Multilingual Wordnet 1.4 | CC BY 3.0 |
 | MultiWordNet | Italian, via Open Multilingual Wordnet 1.4 | CC BY 3.0 |
 | plWordNet | Polish, via Open Multilingual Wordnet 1.4 | WordNet-3.0 |
 | Chinese Open Wordnet | via Open Multilingual Wordnet 1.4 | WordNet-3.0 |
@@ -190,6 +195,7 @@ Adding a language pair is a config file and no code — see
 | Greek Wordnet | via Open Multilingual Wordnet 1.4 | Apache 2.0 |
 | FinnWordNet | via Open Multilingual Wordnet 1.4 | CC BY 3.0 |
 | Wordnet Bahasa | Indonesian, via Open Multilingual Wordnet 1.4 | MIT |
+| Romanian Wordnet | via Open Multilingual Wordnet 1.4 | CC BY-SA |
 | WOLF | French, via Open Multilingual Wordnet 1.4 | CeCILL-C |
 | Wiktionary | via [kaikki.org](https://kaikki.org/) (wiktextract) | CC BY-SA 4.0 |
 | OpenSubtitles 2018 frequency lists | hermitdave/FrequencyWords | CC BY-SA 4.0 |

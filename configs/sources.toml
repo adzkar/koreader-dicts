@@ -1241,3 +1241,91 @@ lang = "tr"
 url = "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/tr/tr_50k.txt"
 license_id = "CC-BY-SA-4.0"
 credit = "hermitdave/FrequencyWords (OpenSubtitles 2018)"
+
+# --- Romanian and Catalan ------------------------------------------------------
+#
+# Both have a wordnet in OMW 1.4. kaikki publishes no edition for either, so
+# no monolingual definitions exist and the English edition is the only Wiktionary
+# material.
+
+[[source]]
+id = "omw-ro"
+kind = "omw-lmf"
+path = "omw/omw-ro/omw-ro.xml"
+lang = "ro"
+version = "1.4"
+url = "https://github.com/omwn/omw-data/releases/download/v1.4/omw-1.4.tar.xz"
+sha256 = "28be99fcb038171403cd057f62e7213d1ea4ea1cf00ab2fb99af190f39bb1d99"
+archive_member = "omw-1.4/omw-ro/omw-ro.xml"
+license_id = "CC-BY-SA-4.0"
+credit = "Romanian Wordnet, via Open Multilingual Wordnet 1.4"
+
+[[source]]
+id = "omw-ca"
+kind = "omw-lmf"
+path = "omw/omw-ca/omw-ca.xml"
+lang = "ca"
+version = "1.4"
+url = "https://github.com/omwn/omw-data/releases/download/v1.4/omw-1.4.tar.xz"
+sha256 = "28be99fcb038171403cd057f62e7213d1ea4ea1cf00ab2fb99af190f39bb1d99"
+archive_member = "omw-1.4/omw-ca/omw-ca.xml"
+license_id = "CC-BY-3.0"
+credit = "Multilingual Central Repository (Catalan), via Open Multilingual Wordnet 1.4"
+
+[[source]]
+id = "wikt-ro-en"
+kind = "kaikki"
+path = "kaikki/enwiktionary-romanian.jsonl.gz"
+lang = "ro"
+url = "https://kaikki.org/dictionary/Romanian/kaikki.org-dictionary-Romanian.jsonl.gz"
+license_id = "CC-BY-SA-4.0"
+credit = "English Wiktionary (Romanian entries) via kaikki.org (wiktextract)"
+options = { mode = "foreign_entries", source_lang = "ro", target_lang = "en" }
+
+[[source]]
+id = "wikt-ca-en"
+kind = "kaikki"
+path = "kaikki/enwiktionary-catalan.jsonl.gz"
+lang = "ca"
+url = "https://kaikki.org/dictionary/Catalan/kaikki.org-dictionary-Catalan.jsonl.gz"
+license_id = "CC-BY-SA-4.0"
+credit = "English Wiktionary (Catalan entries) via kaikki.org (wiktextract)"
+options = { mode = "foreign_entries", source_lang = "ca", target_lang = "en" }
+
+[[source]]
+id = "wikt-en-ro"
+kind = "kaikki"
+path = "kaikki/enwiktionary-english.jsonl.gz"
+lang = "en"
+url = "https://kaikki.org/dictionary/English/kaikki.org-dictionary-English.jsonl.gz"
+license_id = "CC-BY-SA-4.0"
+credit = "English Wiktionary via kaikki.org (wiktextract)"
+options = { mode = "translations", source_lang = "en", target_lang = "ro" }
+
+[[source]]
+id = "wikt-en-ca"
+kind = "kaikki"
+path = "kaikki/enwiktionary-english.jsonl.gz"
+lang = "en"
+url = "https://kaikki.org/dictionary/English/kaikki.org-dictionary-English.jsonl.gz"
+license_id = "CC-BY-SA-4.0"
+credit = "English Wiktionary via kaikki.org (wiktextract)"
+options = { mode = "translations", source_lang = "en", target_lang = "ca" }
+
+[[source]]
+id = "freq-ro"
+kind = "frequency"
+path = "freq/ro_50k.txt"
+lang = "ro"
+url = "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/ro/ro_50k.txt"
+license_id = "CC-BY-SA-4.0"
+credit = "hermitdave/FrequencyWords (OpenSubtitles 2018)"
+
+[[source]]
+id = "freq-ca"
+kind = "frequency"
+path = "freq/ca_50k.txt"
+lang = "ca"
+url = "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/ca/ca_50k.txt"
+license_id = "CC-BY-SA-4.0"
+credit = "hermitdave/FrequencyWords (OpenSubtitles 2018)"

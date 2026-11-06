@@ -81,6 +81,23 @@ def test_omw_lmf_reads_lemmas_and_strips_the_lexicon_prefix(tmp_path):
     assert ("perseguir", "02001858-v") in pairs
 
 
+def test_omw_lmf_strips_optional_clitic_markers(tmp_path):
+    path = write_omw_lmf(
+        tmp_path,
+        "omw-ro",
+        "ro",
+        entries=[
+            ("[se] considera", "v", [("02001858", "v")]),
+            ("|se| arde", "v", [("02001858", "v")]),
+            ("a|-și| face", "v", [("02001858", "v")]),
+        ],
+    )
+    source = build_source(
+        SourceSpec(id="omw-ro", kind="omw-lmf", path=path.name, lang="ro"), tmp_path
+    )
+    assert {r.lemma for r in source.lemmas()} == {"considera", "arde", "a face"}
+
+
 def test_omw_lmf_reads_definitions_when_present(tmp_path):
     path = write_omw_lmf(
         tmp_path, "omw-pt", "pt", "https://creativecommons.org/licenses/by-sa/", definitions=True
